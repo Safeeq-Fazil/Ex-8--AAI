@@ -1,5 +1,5 @@
- <H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+ <H3>Name : SAFEEQ FAZIL A</H3>
+<H3>REGISTER NO: 212222240086</H3>
 <H3>EX. NO.8</H3>
 <H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of Speech Recognition</H1>
@@ -20,8 +20,9 @@ Step 11: Perform speech recognition with exceptional handling:<Br>
 •	If successful, print the recognized text.<Br>
 •	Handle specific exceptions: If the recognition result is unknown or if there is an issue with the request to the Google Speech Recognition service, print corresponding error messages.<Br>
 •	A generic exception block captures any other unexpected errors.<Br>
-<H3>Program:</H3>
 
+## Program:
+```
 import speech_recognition as sr
 r = sr.Recognizer()
 duration = 30
@@ -38,10 +39,11 @@ except sr.RequestError as e:
 except Exception as e:
     print(f'Error : {e}')
 
+```
 
-
-<H3> Output:</H3>
+## Output:
 ![image](https://github.com/user-attachments/assets/809de07e-3aa9-402c-ab65-c23f1cdf3e5e)
 
 
 <H3> Result:</H3>
+Thus, the python program for Speech Recognition is implemented successfully.
